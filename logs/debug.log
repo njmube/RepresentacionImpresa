@@ -1,0 +1,12 @@
+2017-12-23 18:06:05 INFO  c.c.r.i.RepresentacionImpresaApplication:48 [UUID=] - Starting RepresentacionImpresaApplication on cesarvarela-PC with PID 7642 (/home/cesarvarela/CUBETECH/CFDI/representacionImpresa/target/classes started by cesarvarela in /home/cesarvarela/CUBETECH/CFDI/representacionImpresa)
+2017-12-23 18:06:05 DEBUG c.c.r.i.RepresentacionImpresaApplication:51 [UUID=] - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-12-23 18:06:05 INFO  c.c.r.i.RepresentacionImpresaApplication:597 [UUID=] - The following profiles are active: local
+2017-12-23 18:06:31 INFO  c.c.r.i.RepresentacionImpresaApplication:20 [UUID=] - Spring boot application running in UTC timezone :Sat Dec 23 18:06:31 CST 2017
+2017-12-23 18:06:35 INFO  c.c.r.i.RepresentacionImpresaApplication:57 [UUID=] - Started RepresentacionImpresaApplication in 31.251 seconds (JVM running for 37.544)
+2017-12-23 18:23:55 INFO  c.c.r.i.d.r.CuentaEmisorRepositoryTest:48 [UUID=] - Starting CuentaEmisorRepositoryTest on cesarvarela-PC with PID 6555 (started by cesarvarela in /home/cesarvarela/CUBETECH/CFDI/representacionImpresa)
+2017-12-23 18:23:55 DEBUG c.c.r.i.d.r.CuentaEmisorRepositoryTest:51 [UUID=] - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-12-23 18:23:55 INFO  c.c.r.i.d.r.CuentaEmisorRepositoryTest:597 [UUID=] - The following profiles are active: local
+2017-12-23 18:23:59 INFO  c.c.r.i.RepresentacionImpresaApplication:20 [UUID=] - Spring boot application running in UTC timezone :Sat Dec 23 18:23:59 CST 2017
+2017-12-23 18:24:00 INFO  c.c.r.i.d.r.CuentaEmisorRepositoryTest:57 [UUID=] - Started CuentaEmisorRepositoryTest in 5.077 seconds (JVM running for 6.596)
+2017-12-23 18:24:00 DEBUG org.hibernate.SQL:92 [UUID=] - insert into reporte (id, activo, uri) values (default, ?, ?)
+2017-12-23 18:24:00 DEBUG org.hibernate.SQL:92 [UUID=] - select cuentaemis0_.cuenta as cuenta1_2_0_, cuentaemis0_.emisor as emisor2_2_0_, cuentaemis0_.tipo_comprobante as tipo_com3_2_0_, cuentaemis0_.reporte_id as reporte_4_2_0_ from cuenta_emisor cuentaemis0_ where cuentaemis0_.cuenta=? and cuentaemis0_.emisor=? and cuentaemis0_.tipo_comprobante=?

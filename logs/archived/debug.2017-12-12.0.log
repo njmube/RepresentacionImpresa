@@ -1,0 +1,49 @@
+2017-12-12 00:49:32 INFO  c.c.r.i.d.r.CuentaEmisorRepositoryTest:48 [UUID=] - Starting CuentaEmisorRepositoryTest on cesarvarela-PC with PID 22317 (started by cesarvarela in /home/cesarvarela/CUBETECH/CFDI/representacionImpresa)
+2017-12-12 00:49:32 DEBUG c.c.r.i.d.r.CuentaEmisorRepositoryTest:51 [UUID=] - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-12-12 00:49:32 INFO  c.c.r.i.d.r.CuentaEmisorRepositoryTest:597 [UUID=] - The following profiles are active: local
+2017-12-12 00:49:37 INFO  c.c.r.i.RepresentacionImpresaApplication:20 [UUID=] - Spring boot application running in UTC timezone :Tue Dec 12 00:49:37 CST 2017
+2017-12-12 00:49:39 INFO  c.c.r.i.d.r.CuentaEmisorRepositoryTest:57 [UUID=] - Started CuentaEmisorRepositoryTest in 7.806 seconds (JVM running for 9.599)
+2017-12-12 00:49:39 DEBUG org.hibernate.SQL:92 [UUID=] - insert into reporte (id, activo, uri) values (default, ?, ?)
+2017-12-12 00:49:39 DEBUG org.hibernate.SQL:92 [UUID=] - select cuentaemis0_.cuenta as cuenta1_2_0_, cuentaemis0_.emisor as emisor2_2_0_, cuentaemis0_.tipo_comprobante as tipo_com3_2_0_, cuentaemis0_.reporte_id as reporte_4_2_0_ from cuenta_emisor cuentaemis0_ where cuentaemis0_.cuenta=? and cuentaemis0_.emisor=? and cuentaemis0_.tipo_comprobante=?
+2017-12-12 09:51:06 INFO  c.c.r.i.d.r.CuentaEmisorRepositoryTest:48 [UUID=] - Starting CuentaEmisorRepositoryTest on cesarvarela-PC with PID 8787 (started by cesarvarela in /home/cesarvarela/CUBETECH/CFDI/representacionImpresa)
+2017-12-12 09:51:06 DEBUG c.c.r.i.d.r.CuentaEmisorRepositoryTest:51 [UUID=] - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-12-12 09:51:06 INFO  c.c.r.i.d.r.CuentaEmisorRepositoryTest:597 [UUID=] - The following profiles are active: local
+2017-12-12 09:51:11 INFO  c.c.r.i.RepresentacionImpresaApplication:20 [UUID=] - Spring boot application running in UTC timezone :Tue Dec 12 09:51:11 CST 2017
+2017-12-12 09:51:11 INFO  c.c.r.i.d.r.CuentaEmisorRepositoryTest:57 [UUID=] - Started CuentaEmisorRepositoryTest in 5.918 seconds (JVM running for 7.543)
+2017-12-12 09:51:11 DEBUG org.hibernate.SQL:92 [UUID=] - insert into reporte (id, activo, uri) values (default, ?, ?)
+2017-12-12 09:51:11 DEBUG org.hibernate.SQL:92 [UUID=] - select cuentaemis0_.cuenta as cuenta1_2_0_, cuentaemis0_.emisor as emisor2_2_0_, cuentaemis0_.tipo_comprobante as tipo_com3_2_0_, cuentaemis0_.reporte_id as reporte_4_2_0_ from cuenta_emisor cuentaemis0_ where cuentaemis0_.cuenta=? and cuentaemis0_.emisor=? and cuentaemis0_.tipo_comprobante=?
+2017-12-12 10:10:37 INFO  c.c.r.i.d.r.CuentaEmisorRepositoryTest:48 [UUID=] - Starting CuentaEmisorRepositoryTest on cesarvarela-PC with PID 10128 (started by cesarvarela in /home/cesarvarela/CUBETECH/CFDI/representacionImpresa)
+2017-12-12 10:10:37 DEBUG c.c.r.i.d.r.CuentaEmisorRepositoryTest:51 [UUID=] - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-12-12 10:10:37 INFO  c.c.r.i.d.r.CuentaEmisorRepositoryTest:597 [UUID=] - The following profiles are active: local
+2017-12-12 10:10:40 INFO  c.c.r.i.RepresentacionImpresaApplication:20 [UUID=] - Spring boot application running in UTC timezone :Tue Dec 12 10:10:40 CST 2017
+2017-12-12 10:10:41 INFO  c.c.r.i.d.r.CuentaEmisorRepositoryTest:57 [UUID=] - Started CuentaEmisorRepositoryTest in 4.755 seconds (JVM running for 5.997)
+2017-12-12 10:10:41 DEBUG org.hibernate.SQL:92 [UUID=] - insert into reporte (id, activo, uri) values (default, ?, ?)
+2017-12-12 10:10:41 DEBUG org.hibernate.SQL:92 [UUID=] - select cuentaemis0_.cuenta as cuenta1_2_0_, cuentaemis0_.emisor as emisor2_2_0_, cuentaemis0_.tipo_comprobante as tipo_com3_2_0_, cuentaemis0_.reporte_id as reporte_4_2_0_ from cuenta_emisor cuentaemis0_ where cuentaemis0_.cuenta=? and cuentaemis0_.emisor=? and cuentaemis0_.tipo_comprobante=?
+2017-12-12 10:11:44 INFO  c.c.r.i.d.r.CuentaEmisorRepositoryTest:48 [UUID=] - Starting CuentaEmisorRepositoryTest on cesarvarela-PC with PID 10734 (started by cesarvarela in /home/cesarvarela/CUBETECH/CFDI/representacionImpresa)
+2017-12-12 10:11:44 DEBUG c.c.r.i.d.r.CuentaEmisorRepositoryTest:51 [UUID=] - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-12-12 10:11:44 INFO  c.c.r.i.d.r.CuentaEmisorRepositoryTest:597 [UUID=] - The following profiles are active: local
+2017-12-12 10:11:46 INFO  c.c.r.i.RepresentacionImpresaApplication:20 [UUID=] - Spring boot application running in UTC timezone :Tue Dec 12 10:11:46 CST 2017
+2017-12-12 10:11:47 INFO  c.c.r.i.d.r.CuentaEmisorRepositoryTest:57 [UUID=] - Started CuentaEmisorRepositoryTest in 3.652 seconds (JVM running for 4.572)
+2017-12-12 10:11:47 DEBUG org.hibernate.SQL:92 [UUID=] - insert into reporte (id, activo, uri) values (default, ?, ?)
+2017-12-12 10:11:47 DEBUG org.hibernate.SQL:92 [UUID=] - select cuentaemis0_.cuenta as cuenta1_2_0_, cuentaemis0_.emisor as emisor2_2_0_, cuentaemis0_.tipo_comprobante as tipo_com3_2_0_, cuentaemis0_.reporte_id as reporte_4_2_0_ from cuenta_emisor cuentaemis0_ where cuentaemis0_.cuenta=? and cuentaemis0_.emisor=? and cuentaemis0_.tipo_comprobante=?
+2017-12-12 11:03:10 INFO  c.c.r.i.d.r.CuentaEmisorRepositoryTest:48 [UUID=] - Starting CuentaEmisorRepositoryTest on cesarvarela-PC with PID 12929 (started by cesarvarela in /home/cesarvarela/CUBETECH/CFDI/representacionImpresa)
+2017-12-12 11:03:10 DEBUG c.c.r.i.d.r.CuentaEmisorRepositoryTest:51 [UUID=] - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-12-12 11:03:10 INFO  c.c.r.i.d.r.CuentaEmisorRepositoryTest:597 [UUID=] - The following profiles are active: local
+2017-12-12 11:03:13 INFO  c.c.r.i.RepresentacionImpresaApplication:20 [UUID=] - Spring boot application running in UTC timezone :Tue Dec 12 11:03:13 CST 2017
+2017-12-12 11:03:13 INFO  c.c.r.i.d.r.CuentaEmisorRepositoryTest:57 [UUID=] - Started CuentaEmisorRepositoryTest in 4.198 seconds (JVM running for 5.416)
+2017-12-12 11:03:14 DEBUG org.hibernate.SQL:92 [UUID=] - insert into reporte (id, activo, uri) values (default, ?, ?)
+2017-12-12 11:03:14 DEBUG org.hibernate.SQL:92 [UUID=] - select cuentaemis0_.cuenta as cuenta1_2_0_, cuentaemis0_.emisor as emisor2_2_0_, cuentaemis0_.tipo_comprobante as tipo_com3_2_0_, cuentaemis0_.reporte_id as reporte_4_2_0_ from cuenta_emisor cuentaemis0_ where cuentaemis0_.cuenta=? and cuentaemis0_.emisor=? and cuentaemis0_.tipo_comprobante=?
+2017-12-12 11:23:48 INFO  c.c.r.i.d.r.CuentaEmisorRepositoryTest:48 [UUID=] - Starting CuentaEmisorRepositoryTest on cesarvarela-PC with PID 13889 (started by cesarvarela in /home/cesarvarela/CUBETECH/CFDI/representacionImpresa)
+2017-12-12 11:23:48 DEBUG c.c.r.i.d.r.CuentaEmisorRepositoryTest:51 [UUID=] - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-12-12 11:23:48 INFO  c.c.r.i.d.r.CuentaEmisorRepositoryTest:597 [UUID=] - The following profiles are active: local
+2017-12-12 11:23:51 INFO  c.c.r.i.RepresentacionImpresaApplication:20 [UUID=] - Spring boot application running in UTC timezone :Tue Dec 12 11:23:51 CST 2017
+2017-12-12 11:23:51 INFO  c.c.r.i.d.r.CuentaEmisorRepositoryTest:57 [UUID=] - Started CuentaEmisorRepositoryTest in 3.746 seconds (JVM running for 4.669)
+2017-12-12 11:23:51 DEBUG org.hibernate.SQL:92 [UUID=] - insert into reporte (id, activo, uri) values (default, ?, ?)
+2017-12-12 11:23:51 DEBUG org.hibernate.SQL:92 [UUID=] - select cuentaemis0_.cuenta as cuenta1_2_0_, cuentaemis0_.emisor as emisor2_2_0_, cuentaemis0_.tipo_comprobante as tipo_com3_2_0_, cuentaemis0_.reporte_id as reporte_4_2_0_ from cuenta_emisor cuentaemis0_ where cuentaemis0_.cuenta=? and cuentaemis0_.emisor=? and cuentaemis0_.tipo_comprobante=?
+2017-12-12 13:52:07 INFO  c.c.r.i.d.r.CuentaEmisorRepositoryTest:48 [UUID=] - Starting CuentaEmisorRepositoryTest on cesarvarela-PC with PID 21057 (started by cesarvarela in /home/cesarvarela/CUBETECH/CFDI/representacionImpresa)
+2017-12-12 13:52:07 DEBUG c.c.r.i.d.r.CuentaEmisorRepositoryTest:51 [UUID=] - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-12-12 13:52:07 INFO  c.c.r.i.d.r.CuentaEmisorRepositoryTest:597 [UUID=] - The following profiles are active: local
+2017-12-12 13:52:12 INFO  c.c.r.i.RepresentacionImpresaApplication:20 [UUID=] - Spring boot application running in UTC timezone :Tue Dec 12 13:52:12 CST 2017
+2017-12-12 13:52:13 INFO  c.c.r.i.d.r.CuentaEmisorRepositoryTest:57 [UUID=] - Started CuentaEmisorRepositoryTest in 5.89 seconds (JVM running for 7.023)
+2017-12-12 13:52:13 DEBUG org.hibernate.SQL:92 [UUID=] - insert into reporte (id, activo, uri) values (default, ?, ?)
+2017-12-12 13:52:13 DEBUG org.hibernate.SQL:92 [UUID=] - select cuentaemis0_.cuenta as cuenta1_2_0_, cuentaemis0_.emisor as emisor2_2_0_, cuentaemis0_.tipo_comprobante as tipo_com3_2_0_, cuentaemis0_.reporte_id as reporte_4_2_0_ from cuenta_emisor cuentaemis0_ where cuentaemis0_.cuenta=? and cuentaemis0_.emisor=? and cuentaemis0_.tipo_comprobante=?

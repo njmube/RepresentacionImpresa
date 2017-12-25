@@ -1,0 +1,52 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  profiles:
+    active: "local"
+server:
+  port: 57782
+logging:
+  level:
+    org:
+      hibernate:
+        SQL:  DEBUG
+        
+---
+spring:
+  profiles: local
+  datasource:
+    url:  jdbc:mysql://localhost:3306/impresion
+    username: impresionOwner
+    password: cLXsOcDqswCm90Dk
+app:
+  catalogourl:  http://127.0.0.1:57777
+  emisorurl:    http://127.0.0.1:57778
+  archivourl:   http://127.0.0.1:57779
+  cuentaFiles:  CUBE
+
+---
+spring:
+  profiles: dev
+  datasource:
+    url:  jdbc:mysql://mysql:3306/impresion
+    username: impresionOwner
+    password: cLXsOcDqswCm90Dk
+app:
+  catalogourl:  http://catalogo:57777
+  emisorurl:    http://emisor:57778
+  archivourl:   http://file:57779
+  cuentaFiles:  CUBE
+
+---
+spring:
+  profiles: prd
+  datasource:
+    url:  jdbc:mysql://mysql:3306/impresion
+    username: impresionOwner
+    password: cLXsOcDqswCm90Dk
+app:
+  catalogourl:  http://catalogos:57777
+  emisorurl:    http://emisor:57778
+  archivourl:   http://file:57779
+  cuentaFiles:  CUBE

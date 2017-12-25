@@ -1,0 +1,12 @@
+2017-11-27 18:19:40 INFO  c.c.r.i.RepresentacionImpresaApplication:48 [UUID=] - Starting RepresentacionImpresaApplication on cesarvarela-PC with PID 30456 (/home/cesarvarela/CUBETECH/CFDI/representacionImpresa/target/classes started by cesarvarela in /home/cesarvarela/CUBETECH/CFDI/representacionImpresa)
+2017-11-27 18:19:40 DEBUG c.c.r.i.RepresentacionImpresaApplication:51 [UUID=] - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-27 18:19:40 INFO  c.c.r.i.RepresentacionImpresaApplication:597 [UUID=] - The following profiles are active: local
+2017-11-27 18:19:49 INFO  c.c.r.i.RepresentacionImpresaApplication:20 [UUID=] - Spring boot application running in UTC timezone :Mon Nov 27 18:19:49 CST 2017
+2017-11-27 18:19:51 INFO  c.c.r.i.RepresentacionImpresaApplication:57 [UUID=] - Started RepresentacionImpresaApplication in 12.419 seconds (JVM running for 13.373)
+2017-11-27 19:16:03 INFO  c.c.r.i.RepresentacionImpresaApplication:48 [UUID=] - Starting RepresentacionImpresaApplication on cesarvarela-PC with PID 535 (/home/cesarvarela/CUBETECH/CFDI/representacionImpresa/target/classes started by cesarvarela in /home/cesarvarela/CUBETECH/CFDI/representacionImpresa)
+2017-11-27 19:16:03 DEBUG c.c.r.i.RepresentacionImpresaApplication:51 [UUID=] - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-27 19:16:03 INFO  c.c.r.i.RepresentacionImpresaApplication:597 [UUID=] - The following profiles are active: local
+2017-11-27 19:16:11 INFO  c.c.r.i.RepresentacionImpresaApplication:20 [UUID=] - Spring boot application running in UTC timezone :Mon Nov 27 19:16:11 CST 2017
+2017-11-27 19:16:13 INFO  c.c.r.i.RepresentacionImpresaApplication:57 [UUID=] - Started RepresentacionImpresaApplication in 10.298 seconds (JVM running for 11.539)
+2017-11-27 20:10:24 DEBUG c.c.r.i.a.i.ComprobanteXmlServiceImplTest:41 [UUID=] - Comprobante: com.cubetech.representacion.impresa.application.xml.comprobante.Comprobante@127d7908
+2017-11-27 23:20:39 DEBUG c.c.r.i.a.i.ComprobanteXmlServiceImpl:68 [UUID=] - CadenaOriginal: ||1.1|5B7BBBCA-7942-4789-BF70-AF779ED3F795|2017-07-14T10:52:26|SAT970701NN3|EKAtacGtgElJ3vvyjEAHA0vz+mNoWqLZSamELhfQKra70qmhc4SOrPaER6WbVEdQCp7fCXoE+EMHDjFlk26VBuBGAOJFqsYu/wa43ybZheCjBxbZfs8fHc+5Lg56f0pxdrjspS2WtzCLLRI1sLPvNjZkKT9l6rJuHKk+ClGEXFMbjC0mujGttXi7NQnROZAc9tCQcKJSx9cMneyvk/QPStpFIugXH0tep/038EVaC/sw4tfBuE0jGYy5PZzEeZTJweEVlHtD0KJB0yhi7qDLlAYnYO2RisI6hdQ+5dVctaSIQeXWqmOtoYoUSQmLZT9poga0RkrIVXjmN3YJjyMlgA==|00001000000403258748||

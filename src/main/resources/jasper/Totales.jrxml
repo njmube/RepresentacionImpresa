@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.4.3.final using JasperReports Library version 6.4.3  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Totales" pageWidth="595" pageHeight="842" whenNoDataType="AllSectionsNoDetail" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="7ea42e82-46ef-4c08-b19c-af33860946c1">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<style name="Table_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<topPen lineWidth="0.5" lineColor="#EAEAEA"/>
+			<bottomPen lineWidth="0.5" lineColor="#EAEAEA"/>
+		</box>
+	</style>
+	<style name="Table_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<topPen lineWidth="0.5" lineColor="#EAEAEA"/>
+			<bottomPen lineWidth="0.5" lineColor="#EAEAEA"/>
+		</box>
+	</style>
+	<style name="Table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<topPen lineWidth="0.5" lineColor="#EAEAEA"/>
+			<bottomPen lineWidth="0.5" lineColor="#EAEAEA"/>
+		</box>
+	</style>
+	<subDataset name="Dataset1" uuid="61a4b047-9217-4be8-8ab4-55411724bde7">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+		<field name="descripcion" class="java.lang.String">
+			<fieldDescription><![CDATA[descripcion]]></fieldDescription>
+		</field>
+		<field name="importe" class="java.lang.String">
+			<fieldDescription><![CDATA[importe]]></fieldDescription>
+		</field>
+	</subDataset>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="metodoPago" class="java.lang.String">
+		<fieldDescription><![CDATA[metodoPago]]></fieldDescription>
+	</field>
+	<field name="totalLetra" class="java.lang.String">
+		<fieldDescription><![CDATA[totalLetra]]></fieldDescription>
+	</field>
+	<field name="resumenDataSource" class="net.sf.jasperreports.engine.data.JRBeanCollectionDataSource">
+		<fieldDescription><![CDATA[resumenDataSource]]></fieldDescription>
+	</field>
+	<field name="condicionesPago" class="java.lang.String">
+		<fieldDescription><![CDATA[condicionesPago]]></fieldDescription>
+	</field>
+	<field name="formaPago" class="java.lang.String">
+		<fieldDescription><![CDATA[formaPago]]></fieldDescription>
+	</field>
+	<summary>
+		<band height="60" splitType="Prevent">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement x="0" y="0" width="560" height="60" uuid="0a904308-c967-4c97-9244-c3505b271606">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="ShowOutOfBoundContent" value="true"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.5" lineColor="#000000"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<staticText>
+					<reportElement x="0" y="0" width="180" height="20" uuid="7950b6ec-e014-420a-a6a6-c08424f2f1a3">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<textElement>
+						<font size="14" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Total con letra:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="315" y="0" width="175" height="20" uuid="25eeccec-0846-4f2a-bec5-5950f25baae4">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<textElement>
+						<font size="14" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Importe]]></text>
+				</staticText>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement x="0" y="20" width="305" height="15" uuid="f76c8d8d-e40a-42e6-9a8c-f9a2ff4cbc5e">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$F{totalLetra}]]></textFieldExpression>
+				</textField>
+				<frame>
+					<reportElement positionType="Float" x="0" y="35" width="305" height="20" isRemoveLineWhenBlank="true" uuid="005bdca8-fba5-442c-9ea7-658615bf42d1">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<printWhenExpression><![CDATA[$F{metodoPago} != null]]></printWhenExpression>
+					</reportElement>
+					<staticText>
+						<reportElement x="0" y="5" width="98" height="15" uuid="8ede4529-e264-4e7e-a854-bccc39fbc47e">
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						</reportElement>
+						<textElement>
+							<font isBold="true"/>
+						</textElement>
+						<text><![CDATA[Metodo de Pago:]]></text>
+					</staticText>
+					<textField>
+						<reportElement x="98" y="5" width="207" height="15" uuid="8bac70b1-31c4-4c29-ad1a-5ec8053c65c8">
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						</reportElement>
+						<textFieldExpression><![CDATA[$F{metodoPago}]]></textFieldExpression>
+					</textField>
+				</frame>
+				<frame>
+					<reportElement positionType="Float" x="0" y="55" width="305" height="15" isRemoveLineWhenBlank="true" uuid="eb963bde-a2be-4303-a0f2-1574470f6f33">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<printWhenExpression><![CDATA[$F{formaPago} != null]]></printWhenExpression>
+					</reportElement>
+					<staticText>
+						<reportElement x="0" y="2" width="98" height="15" isRemoveLineWhenBlank="true" uuid="fab0d8e7-2398-4ed9-85bd-b4c3b98125b5">
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						</reportElement>
+						<textElement>
+							<font isBold="true"/>
+						</textElement>
+						<text><![CDATA[Forma de Pago:]]></text>
+					</staticText>
+					<textField>
+						<reportElement x="98" y="2" width="207" height="15" isRemoveLineWhenBlank="true" uuid="32c88769-fdf8-46eb-bfe0-eb4c010559c8">
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						</reportElement>
+						<textFieldExpression><![CDATA[$F{formaPago}]]></textFieldExpression>
+					</textField>
+				</frame>
+				<frame>
+					<reportElement x="0" y="70" width="305" height="20" isRemoveLineWhenBlank="true" uuid="c08c263b-3941-4a2b-86ac-b42b6be82373">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<printWhenExpression><![CDATA[$F{condicionesPago}!=null]]></printWhenExpression>
+					</reportElement>
+					<textField isStretchWithOverflow="true">
+						<reportElement mode="Opaque" x="0" y="5" width="305" height="10" isRemoveLineWhenBlank="true" backcolor="#EAEAEA" uuid="757a63a9-23f2-4af7-a0ea-23bd641d9e44">
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						</reportElement>
+						<textElement>
+							<font size="8"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{condicionesPago}]]></textFieldExpression>
+					</textField>
+				</frame>
+				<componentElement>
+					<reportElement x="330" y="27" width="220" height="18" uuid="0976f0d9-43d8-45d2-8224-aac692cacd5a">
+						<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+						<property name="com.jaspersoft.studio.table.style.table_header" value="Table_TH"/>
+						<property name="com.jaspersoft.studio.table.style.column_header" value="Table_CH"/>
+						<property name="com.jaspersoft.studio.table.style.detail" value="Table_TD"/>
+					</reportElement>
+					<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+						<datasetRun subDataset="Dataset1" uuid="4f3657a1-40cb-4397-b14d-9699de258775">
+							<dataSourceExpression><![CDATA[$F{resumenDataSource}]]></dataSourceExpression>
+						</datasetRun>
+						<jr:column width="110" uuid="1beb5aff-224d-4604-bc60-152b000aa237">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+							<jr:detailCell style="Table_TD" height="18">
+								<textField>
+									<reportElement x="0" y="0" width="110" height="18" uuid="02a1f4bb-6697-43ec-8dcf-a99f3edc63b5"/>
+									<textFieldExpression><![CDATA[$F{descripcion}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="110" uuid="9e94241c-16f9-4c1e-b37a-e2798322286c">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+							<jr:detailCell style="Table_TD" height="18">
+								<textField>
+									<reportElement x="0" y="0" width="110" height="18" uuid="5f4f7b9d-f4bc-482f-a5b2-50886ce91076"/>
+									<textFieldExpression><![CDATA[$F{importe}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+					</jr:table>
+				</componentElement>
+			</frame>
+		</band>
+	</summary>
+</jasperReport>
